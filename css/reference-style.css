@@ -1,0 +1,20 @@
+#reference-main {
+    display: flex;
+    justify-content: center;
+}
+
+.reference-container {
+    display: flex;
+    justify-content: center; 
+    margin: 10px;
+}
+
+#periodic-table-img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+#muscles-img {
+    max-width: 100%;
+    max-height: 600px;
+}
