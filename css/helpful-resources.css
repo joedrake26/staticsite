@@ -1,0 +1,24 @@
+
+
+.research-resources  {
+    display: flex;
+}
+
+.source {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.source > p {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.img-container > img {
+    max-width: 30vw;
+    max-height: 30vh;
+    
+}
