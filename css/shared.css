@@ -2,6 +2,7 @@ header {
     background-color: rebeccapurple;
     padding: 15px;
     flex-wrap: wrap;
+    font-family: sans-serif;
 }
 
 
@@ -17,7 +18,7 @@ header {
     padding: 0;
     margin: 0;
     list-style-type: none;
-
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

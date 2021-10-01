@@ -1,24 +1,70 @@
 
 
-.research-resources  {
+.study-resources {
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.resource-section-header {
+    margin: 15px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.resource-row {
     display: flex;
 }
 
 .source {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
+    border: groove black;
+    margin: 10px;
+    padding: 5px;
 }
 
 .source > p {
     display: flex;
+    position: relative;
     align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.outside-link {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 
+a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.outside-link > img{
+    max-width: 12px;
+    position:absolute;
+    right: -15;
+    top: 40%;
+}
 
 .img-container > img {
     max-width: 30vw;
     max-height: 30vh;
     
+}
+
+@media (max-width: 850px) {
+    .resource-row { 
+        flex-direction: column;
+    }
 }
