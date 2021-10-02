@@ -13,6 +13,15 @@
     
 }
 
+#list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#list-container > ul {
+    margin: 0;
+}
+
 .text-container {
     font-size: larger;
     line-height: 200%;
