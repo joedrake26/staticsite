@@ -30,6 +30,19 @@
     border: solid grey;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 20%;
+}
+
 @media (max-width: 900px) {
 
 
@@ -39,24 +52,3 @@
 }
 
 
-@media (max-width: 650px) {
-
-    
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    main {
-        margin: 0;
-        padding: 0;
-        width: auto;
-        background-color: wheat;
-    }
-
-    .image-container {
-        display: none;
-    }
-
-}

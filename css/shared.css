@@ -11,7 +11,20 @@ header {
     font-size: xx-large;
     font-weight: bold;
     color: white;
- 
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .navlinks {
@@ -73,4 +86,30 @@ main {
     box-sizing: border-box;
     background-color: white;
     flex-direction: column;
+}
+
+p {
+    text-indent: 30px;
+}
+
+@media (max-width: 650px) {
+
+    
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        background-color: wheat;
+    }
+
+    .image-container {
+        display: none;
+    }
+
 }
